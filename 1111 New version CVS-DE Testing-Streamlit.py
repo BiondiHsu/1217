@@ -19,6 +19,8 @@ from typing import Any, Dict, Optional, Tuple
 import numpy as np
 import pandas as pd
 import streamlit as st
+st.write("STEP 1: import started")
+st.write("STEP 2: before heavy imports")
 from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 import webbrowser
@@ -692,5 +694,6 @@ st.markdown("""
 | *T̂* | Estimated total misstatement | 總誤差估計 |
 | *L*, *U* | Lower / Upper bound | 區間下限 / 上限 |
 """)
+
 
 
