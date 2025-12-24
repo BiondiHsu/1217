@@ -488,12 +488,13 @@ including sample size estimation, point estimate, CPI, symmetric/asymmetric conf
 | *n* | Sample size | 樣本數 |
 | *N* | Population size | 母體大小 |
 | *ē* | Sample mean error | 樣本平均誤差 |
-| *SD★* | Estimated population SD | 估計母體標準差 |
-| *SD* | Sample SD (STDEV.S) | 樣本標準差 |
+'| '| *SD★* | Estimated population SD | 估計母體標準
+| '| '*SD* | Sample SD (STDEV.S) | 樣本標準
 | *ZA* | ARIA Z-factor | 誤受險 Z 值 |
 | *ZR* | ARIR Z-factor | 誤拒險 Z 值 |
 | *TM* | Tolerable misstatement | 可容忍錯誤 |
-| *E★* | Expected misstatement | 預期錯誤 |
-| *CPI* | Confidence precision interval | 精確度區間（半寬） |
+'| *E★* | Expected misstatement | 預期錯誤 |'
+'| *CPI* | Confidence precision interval | 精確度區間（半寬） |'
 | *T̂* | Estimated total misstatement | 總誤差估計 |
 | *L*, *U* | Lower / Upper bound | 區間下限 / 上限 |
+
