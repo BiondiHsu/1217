@@ -30,7 +30,6 @@ import io
 # 產生帶 Logo 的 QR Code
 # ============================
 def main():
-    st.title("退休金計畫互動系統 · Retirement Income App")
     st.write("MAIN CALLED ✅")
 
 def generate_qr(url):
@@ -693,6 +692,7 @@ st.markdown("""
 """)
 
 main()
+
 
 
 
