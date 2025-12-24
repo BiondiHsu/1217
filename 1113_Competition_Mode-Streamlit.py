@@ -480,7 +480,7 @@ including sample size estimation, point estimate, CPI, symmetric/asymmetric conf
                 ]
             }))
 
-st.markdown(
+st.markdown("""
 ### Variable Glossary / 變數意義對照
 
 | Symbol | Meaning (EN) | 中文說明 |
@@ -497,4 +497,5 @@ st.markdown(
 | *CPI* | Confidence precision interval | 精確度區間（半寬） |
 | *T̂* | Estimated total misstatement | 總誤差估計 |
 | *L*, *U* | Lower / Upper bound | 區間下限 / 上限 |
-)
+""")
+
