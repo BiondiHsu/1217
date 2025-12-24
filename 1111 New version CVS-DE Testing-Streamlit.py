@@ -34,6 +34,10 @@ st.stop()
 # ============================
 # 產生帶 Logo 的 QR Code
 # ============================
+def generate_qr(url):
+    import qrcode
+    return qrcode.make(url)
+
 def make_qr(url: str, logo_path: str = None, size: int = 600):
     qr = qrcode.QRCode(
         version=2,
@@ -688,4 +692,5 @@ st.markdown("""
 | *T̂* | Estimated total misstatement | 總誤差估計 |
 | *L*, *U* | Lower / Upper bound | 區間下限 / 上限 |
 """)
+
 
