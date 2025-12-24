@@ -11,8 +11,6 @@ plt.rcParams["axes.unicode_minus"] = False
 
 st.set_page_config(layout="wide")
 st.title("🎯 EVPI / EVII 決策分析互動遊戲（完整教學版）")
-
-
 # =====================================================
 # 一、產品資訊
 # =====================================================
@@ -185,4 +183,5 @@ with st.expander("📊 教學用表格（Payoff / 機率）"):
 
     st.write("P(Y | X)")
     st.table(pd.DataFrame(p_y_given_x, index=states, columns=signals))
+
 
