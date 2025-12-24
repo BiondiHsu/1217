@@ -1,7 +1,0 @@
-streamlit>=1.30
-pandas>=1.5
-numpy>=1.23
-matplotlib>=3.6,<3.9
-openpyxl>=3.1
-qrcode==7.4.2
-Pillow>=9.0
