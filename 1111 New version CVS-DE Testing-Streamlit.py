@@ -28,19 +28,15 @@ import qrcode
 from PIL import Image, ImageDraw, ImageFont
 import io
 
-import streamlit as st
-
-st.write("STREAMLIT BOOT OK")
-st.stop()
+# ============================
+# 產生帶 Logo 的 QR Code
+# ============================
 def main():
     st.title("退休金計畫互動系統 · Retirement Income App")
     st.write("MAIN CALLED ✅")
 
     st.write("這裡開始才是真正 UI")
-
-# ============================
-# 產生帶 Logo 的 QR Code
-# ============================
+    
 def generate_qr(url):
     import qrcode
     return qrcode.make(url)
@@ -701,6 +697,7 @@ st.markdown("""
 """)
 
 main()
+
 
 
 
