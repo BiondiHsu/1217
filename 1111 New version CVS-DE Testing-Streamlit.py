@@ -695,5 +695,7 @@ st.markdown("""
 | *L*, *U* | Lower / Upper bound | 區間下限 / 上限 |
 """)
 
+main()
+
 
 
