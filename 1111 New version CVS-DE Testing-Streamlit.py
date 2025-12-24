@@ -33,8 +33,6 @@ def main():
     st.title("退休金計畫互動系統 · Retirement Income App")
     st.write("MAIN CALLED ✅")
 
-    st.write("這裡開始才是真正 UI")
-
 def generate_qr(url):
     import qrcode
     return qrcode.make(url)
@@ -695,6 +693,7 @@ st.markdown("""
 """)
 
 main()
+
 
 
 
